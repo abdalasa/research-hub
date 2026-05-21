@@ -56,10 +56,3 @@ button[type="submit"]{
   }
 
 }
-/* Stats Numbers Font */
-
-.grid.grid-cols-2.md\:grid-cols-4 h3{
-    font-family: "Playfair Display", serif !important;
-    font-weight: 700 !important;
-    letter-spacing: -1px;
-}
