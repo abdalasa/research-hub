@@ -56,8 +56,8 @@ button[type="submit"]{
   }
 
 }
-/* Hide Standalone Search Icon */
+/* Hide Standalone Search Button */
 
-header .flex.items-center.gap-4 > svg{
+header a[href="/search"]{
     display:none !important;
 }
