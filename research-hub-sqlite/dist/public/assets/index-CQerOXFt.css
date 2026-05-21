@@ -9,3 +9,50 @@ button[type="submit"]{
     padding:0 24px !important;
     border-radius:10px !important;
 }
+/* =========================
+   TABLET RESPONSIVE FIX
+========================= */
+
+@media (max-width:1024px){
+
+  .grid,
+  .papers-grid,
+  .cards,
+  .paper-list{
+    display:grid !important;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr)) !important;
+    gap:16px !important;
+    width:100% !important;
+  }
+
+  .card,
+  .paper-card,
+  .paper-item{
+    width:100% !important;
+    min-width:0 !important;
+    overflow:hidden !important;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  p,
+  span,
+  a{
+    overflow-wrap:break-word !important;
+    word-break:break-word !important;
+  }
+
+  img{
+    max-width:100% !important;
+    height:auto !important;
+  }
+
+  .flex,
+  .row{
+    flex-wrap:wrap !important;
+  }
+
+}
