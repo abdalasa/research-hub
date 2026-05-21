@@ -1,0 +1,68 @@
+==============================================
+  HOW TO DEPLOY RESEARCH HUB ONLINE (FREE)
+==============================================
+
+WHAT YOU NEED:
+  - GitHub account (free) - github.com
+  - Render account (free) - render.com
+  - Domain name (paid, ~$10/year) - namecheap.com
+
+----------------------------------------------
+STEP 1: UPLOAD TO GITHUB
+----------------------------------------------
+1. Go to github.com and sign in
+2. Click "New repository"
+3. Name it: research-hub
+4. Click "Create repository"
+5. Upload ALL files from this folder to the repo
+   (drag and drop in the browser)
+6. Click "Commit changes"
+
+----------------------------------------------
+STEP 2: DEPLOY ON RENDER (FREE HOSTING)
+----------------------------------------------
+1. Go to render.com and sign in with GitHub
+2. Click "New" then "Web Service"
+3. Select your "research-hub" repository
+4. Fill in settings:
+     Name:          research-hub
+     Runtime:       Node
+     Build Command: (leave empty)
+     Start Command: node server.js
+5. Click "Create Web Service"
+6. Wait 2-3 minutes for deployment
+7. Render gives you a FREE link like:
+     https://research-hub-xxxx.onrender.com
+
+----------------------------------------------
+STEP 3: ADD YOUR CUSTOM DOMAIN (OPTIONAL)
+----------------------------------------------
+1. Buy a domain from namecheap.com (~$10/year)
+   Example: myresearchhub.com
+2. In Render dashboard:
+   - Go to your service settings
+   - Click "Custom Domains"
+   - Add your domain name
+3. In Namecheap:
+   - Go to DNS settings
+   - Add CNAME record pointing to Render URL
+4. Wait 24 hours for DNS to update
+5. Your site will be at: https://myresearchhub.com
+
+----------------------------------------------
+PAPER LINKS (SHARING)
+----------------------------------------------
+Each paper has its own permanent URL you can copy and send to anyone:
+  https://yourdomain.com/papers/1
+  https://yourdomain.com/papers/2
+  ...
+
+Dr. Ibrahim Al-Hassan's paper:
+  https://yourdomain.com/papers/361
+
+When someone opens that link they see the paper page, and when they
+click "Open PDF" the Columbus University viewer opens (with the
+university logo in the browser tab), where they can read or download
+the full dissertation.
+
+You can share these links with anyone!

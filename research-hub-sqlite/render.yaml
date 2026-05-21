@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: research-hub
+    env: node
+    buildCommand: ""
+    startCommand: node server.js
+    envVars:
+      - key: PORT
+        value: 3000
