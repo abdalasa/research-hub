@@ -56,8 +56,3 @@ button[type="submit"]{
   }
 
 }
-/* Force Counter Font */
-
-.grid.grid-cols-2.md\:grid-cols-4 div{
-    font-family: "Playfair Display", serif !important;
-}
