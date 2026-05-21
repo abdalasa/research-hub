@@ -56,8 +56,3 @@ button[type="submit"]{
   }
 
 }
-/* Hide Standalone Search Button */
-
-header a[href="/search"]{
-    display:none !important;
-}
